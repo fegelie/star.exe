@@ -24,9 +24,9 @@ def callback():
     userText = decoded["events"][0]['message']['text']
     sendText(user,userText)
     if (userText == 'hitler') :
-    sendText(user,'Adolf hitler is die German persidrent in the Nazi republic.')
+        sendText(user,'Adolf hitler is die German persidrent in the Nazi republic.')
     elif (userText == 'America') :
-    sendText(user,'trast')
+        sendText(user,'trast')
     return '',200
 
 def sendText(user, text):
