@@ -31,7 +31,7 @@ def callback():
         sendText(user,'Heil hitler')
     elif (userText == 'คนที่ผมชอบ') :
         sendText(user,'น้องนนท์ของท่านผู้นำไง แล้วท่านก็อย่านอกใจละ')
-  return '',200
+    return '',200
 
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
