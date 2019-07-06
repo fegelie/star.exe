@@ -27,6 +27,8 @@ def callback():
         sendText(user,'Adolf hitler is die German persidrent in the Nazi republic.')
     elif (userText == 'America') :
         sendText(user,'trast')
+     if (userText == 'Sieg heil') :
+        sendText(user,'Heil hitler')
     return '',200
 
 def sendText(user, text):
