@@ -42,7 +42,7 @@ def callback():
     elif (userText == 'Soviet') :
         sendText(user,'communist ')
     else :
-        sendText(user,'Yaoi')
+        sendText(user,'พิมพ์อะไรของท่าน')
     return '',200
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
