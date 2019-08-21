@@ -24,9 +24,9 @@ def callback():
     userText = decoded['queryResult']['intent']['displayName']
     #sendText(user,userText)
     if (userText == 'โครงสร้างโลกแบ่งออกเป็นกี่ประเภทและมีอะไรบ้าง') :
-        sendText(user,'แบ่งอออกเป็น 3 ประเภท ประกออบด้วย 1.เปลือกโลก(Crust) 2.เนื้อโลก (Mantle) 3.แก่นโลก(Core)')
-    elif (userText == '...') :
-        sendText(user,'ไม่ทราบมารถหาข้อมูลได้')
+        sendText(user,'แบ่งอออกเป็น 3 ประเภท ประกออบด้วย 1.เปลือกโลก(Crust) 2.เนื้อโลก (Mantle) 3.แก่นโลก(Core)นะครับ')
+     elif (userText == 'โลกมีอายุประมาณกี่ปีแล้ว') :
+        sendText(user,'โลกมีอายุประมาณ4,600ล้านปีแล้วนะครับ')  
     return '',200
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
