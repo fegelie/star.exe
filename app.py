@@ -25,7 +25,7 @@ def callback():
     #sendText(user,userText)
     if (userText == 'โครงสร้างโลกแบ่งออกเป็นกี่ประเภทและมีอะไรบ้าง') :
         sendText(user,'แบ่งอออกเป็น 3 ประเภท ประกออบด้วย 1.เปลือกโลก(Crust) 2.เนื้อโลก (Mantle) 3.แก่นโลก(Core)นะครับ')
-     elif (userText == 'โลกมีอายุประมาณกี่ปีแล้ว') :
+    elif (userText == 'โลกมีอายุประมาณกี่ปีแล้ว') :
         sendText(user,'โลกมีอายุประมาณ4,600ล้านปีแล้วนะครับ')  
     return '',200
 def sendText(user, text):
