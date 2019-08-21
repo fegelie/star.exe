@@ -23,7 +23,7 @@ def callback():
     user = decoded['originalDetectIntentRequest']['payload']['data']['replyToken']
     userText = decoded['queryResult']['intent']['displayName']
     #sendText(user,userText)
-    if (userText == 'โครงสร้างโลกแบ่งออกเป็นกี่ประเภทและทมีอะไรบ้าง') :
+    if (userText == 'โครงสร้างโลกแบ่งออกเป็นกี่ประเภทและมีอะไรบ้าง') :
         sendText(user,'แบ่งอออกเป็น 3 ประเภท ประกออบด้วย 1.เปลือกโลก(Crust) 2.เนื้อโลก (Mantle) 3.แก่นโลก(Core)')
     elif (userText == '...') :
         sendText(user,'ไม่ทราบมารถหาข้อมูลได้')
